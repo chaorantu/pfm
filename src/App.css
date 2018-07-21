@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.left_side{
+  position:absolute;
+  top:0px;
+  left:0px;
+  border:solid 1px #0000FF;
+  width:220px;
+  height:100%;
+}
+.content{
+  position:absolute;
+  margin:0px 250px 0px 230px;
+  border:solid 1px #0000FF;
+  width:80%;
+  height:100%;
+}
+.tab{
+    display: inline-block;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.listyle{
+
+}
+.linkstyle{
+  left:10%;
+  text-align: left;
+}
+.recipe_buttons {
+  border: solid 2px #e74c3c;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 0.7rem;
+  text-align: left;
+}
+.recipes__box {
+  background: #fff;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+  text-align: left;
+  overflow: hidden;
+}
+div{margin:0; padding:0;font-size: 1.4rem;}
+ul,li{ margin:0; padding:0;}
+ul,li{ list-style:none}
+.new{border:solid 1px #990033; width:210px; line-height:24px;margin-top:40%;background: aquamarine;}
+.new li{ border-bottom:solid 1px #CCC; overflow:hidden;font-size: 1.2rem;}
+.new li a{ float:left;}
+.new li span{ float:right}
+
+.show_table
+{
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+    height: 200px;
+    display:block;
+    width: 700px;
+  overflow-y: scroll;
+}
+.type_table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;
+    display:block;
+    width: 300px;
+    overflow-y: scroll;
+}
+.text_table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+.text_table td,th{
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 25px;
+}
+.show_table td,th
+{
+  border: 1px solid #cad9ea;
+  color: #666;
+  height: 30px;
+}
+.type_table td,th
+{
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
+}
+table thead th
+{
+  background-color: #CCE8EB;
+  width: 150px;
+}
+.text_table tr:nth-child(odd){
+    background: #eff8ff;
+}
+.text_table tr:nth-child(even){
+    background: #fdfff8;
+}
+.show_table tr:nth-child(odd)
+{
+  background: #fff;
+}
+.show_table tr:nth-child(even)
+{
+  background: #F5FAFA;
+}
+.type_table tr:nth-child(odd)
+{
+    background: #fff;
+}
+.type_table tr:nth-child(even)
+{
+    background: #F5FAFA;
+}
+button {
+  display: inline-block;
+  padding: .3em .5em;
+  background-image: linear-gradient(#f5c153, #ea920d);
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3em;
+  box-shadow: 0 1px white inset;
+  text-align: center;
+  text-shadow: 0 1px 1px black;
+  color:white;
+  font-weight: bold;
+}
+button:active{
+  box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+  border-color: rgba(0,0,0,.3);
+  background: #bbb;
+}
+.buttonD {
+  display: inline-block;
+  padding: .3em .5em;
+  background-image: linear-gradient(#ddd, #bbb);
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3em;
+  box-shadow: 0 1px white inset;
+  text-align: center;
+  text-shadow: 0 1px 1px black;
+  color:white;
+  font-weight: bold;
+}
+.buttonD:active{
+  box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+  border-color: rgba(0,0,0,.3);
+  background: #bbb;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

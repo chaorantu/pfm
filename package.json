@@ -1,0 +1,27 @@
+{
+  "name": "pfm",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://chaorantu.github.io/pfm/",
+  "dependencies": {
+    "aws-appsync": "^1.1.4",
+    "aws-appsync-react": "^1.0.19",
+    "gh-pages": "^1.2.0",
+    "ghpages": "0.0.10",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-dom": "^16.4.1",
+    "react-echarts": "^0.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}
